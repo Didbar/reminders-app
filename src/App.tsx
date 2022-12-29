@@ -24,6 +24,7 @@ function App() {
     }, [])
     return (
         <div className='App'>
+            <h1 className='text-center text-primary'>Reminders List</h1>
             <NewReminder onAddReminder={addReminder} />
             <ReminderList items={reminders} onRemoveReminder={removeReminder} />
         </div>
